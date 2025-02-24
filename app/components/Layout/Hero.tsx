@@ -11,7 +11,7 @@ export function Hero() {
           <FadeIn delay={200}>
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-4">
               <p className="mx-auto text-md sm:text-base md:text-xl lg:text-xl text-neutral-500 max-w-prose">
-                Trusted general contractor serving Harris and Montgomery counties with expert home repairs, fencing, remodeling, and more. No job too big or small—built to last, done right the first time. Contact today for a free estimate!
+                Trusted general contractor serving Harris and Montgomery counties with expert home repairs, fencing, remodeling, and more. No job too big or small—built to last, done right the first time. Contact Gary today for a free estimate!
               </p>
             </div>
           </FadeIn>

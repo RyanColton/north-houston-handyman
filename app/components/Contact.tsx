@@ -19,7 +19,7 @@ export default function Contact({ shouldFadeOnScroll }: ContactProps) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-4 items-center justify-center bg-white/60 p-10">
               <h1 className="text-5xl font-bold text-center mb-4">Contact</h1>
               {messageSent && <p className="text-2xl font-medium mb-4">Message sent successfully!</p>}
-              {!messageSent && <p className="text-2xl font-medium mb-4">Please fill out the form below to get in touch about your handyman needs.</p>}
+              {!messageSent && <p className="text-2xl font-medium mb-4">Please fill out the form below to get in touch.</p>}
               <div
                 style={{
                     gridTemplateAreas: `
@@ -56,7 +56,7 @@ export default function Contact({ shouldFadeOnScroll }: ContactProps) {
               </div>
 
               <p>Or</p>
-              <p>Call or text me at <a href="tel:+13464597777">346-459-7777</a></p>
+              <p>Call or text Gary at <a href="tel:+13464597777">346-459-7777</a></p>
             </div>
           </FadeIn>
       </div>
