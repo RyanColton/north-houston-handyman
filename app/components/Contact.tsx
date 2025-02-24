@@ -1,7 +1,7 @@
 'use client'
 import Button from "./UILibrary/Button";
 import FadeIn from "./UILibrary/FadeIn";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 type ContactProps = {
   shouldFadeOnScroll?: boolean;

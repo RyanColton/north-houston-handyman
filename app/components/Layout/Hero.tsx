@@ -1,7 +1,4 @@
-import Button from '../UILibrary/Button'
 import FadeIn from '../UILibrary/FadeIn'
-
-const blobUrl = process.env.BLOB_BASE_URL
 
 export function Hero() {
   return (
